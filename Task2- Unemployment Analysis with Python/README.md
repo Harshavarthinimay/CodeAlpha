@@ -1,18 +1,44 @@
-# Unemployment Analysis with Python
+# Unemployment Analysis Project
 
-This project analyzes unemployment rate data to explore trends and the impact of Covid-19.
+This project analyzes unemployment rate trends using Python. It explores historical data, identifies seasonal patterns, and assesses the impact of the COVID-19 pandemic on unemployment.
 
-## Contents
+## 📊 Features
+- Time-series visualization of unemployment rates
+- Monthly trend analysis
+- COVID-19 period impact visualization
+- Summary statistics and correlation matrix
 
-- `notebooks/unemployment_analysis.ipynb`: Main notebook for data analysis and visualization.
-- `scripts/data_cleaning.py`: Python script for data cleaning functions.
+## 🗂️ Files
+- `unemployment_analysis.py`: Python script version
+- `unemployment_analysis.ipynb`: Jupyter Notebook version
+- `unemployment_data.csv`: Unemployment dataset
+- `requirements.txt`: Python dependencies
 
-## Objective
+## 🛠️ How to Run
+1. Clone the repo:
+   ```
+   git clone https://github.com/your-username/Unemployment-Analysis-Project.git
+   cd Unemployment-Analysis-Project
+   ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the notebook or script:
+   ```
+   jupyter notebook unemployment_analysis.ipynb
+   # or
+   python unemployment_analysis.py
+   ```
 
-- Analyze unemployment trends.
-- Explore Covid-19 effects.
-- Provide visual insights for policy-making.
+## 🧪 Requirements
+- pandas
+- matplotlib
+- seaborn
+- numpy
 
-## Dataset
+## 🔍 Data Source
+*(Mention source or link to data)*
 
-Download dataset from [source](https://example.com).
+## 📌 Author
+- Your Name
